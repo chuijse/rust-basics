@@ -7,10 +7,14 @@
 //mod vectors;
 //mod conditionals;
 //mod loops;
-mod functions;
+//mod functions;
+//mod pointer_ref;
+mod structs;
 
 fn main() {
-    functions::run();
+    structs::run();
+    //pointer_ref::run();
+    //functions::run();
     //loops::run();
     //conditionals::run();
     //vectors::run();
